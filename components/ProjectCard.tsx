@@ -14,7 +14,7 @@ export default function ProjectCard({
     link
 }: ProjectCardProps) { 
     return (
-        <article>
+        <article className="bg-zinc-900 text-white border border-zinc-700 rounded-xl p-6 shadow-md">
             <h2 className="text-xl font-bold mb-2">{title}</h2>
             <p className="mb-2">{description}</p>
             <p> {technologies.join(', ')}</p>
