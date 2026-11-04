@@ -18,7 +18,7 @@ export default function ProjectCard({
             <h2 className="text-xl font-bold mb-2">{title}</h2>
             <p className="mb-2">{description}</p>
             <p> {technologies.join(', ')}</p>
-            <a href={link} className="text-blue-500 hover:underline">
+            <a href={link} className="text-blue-300 hover:text-blue-200 hover:underline">
                 View Project
             </a>
         </article>
