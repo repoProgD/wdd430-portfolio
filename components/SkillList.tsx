@@ -44,7 +44,7 @@ export default function SkillList({ categories }: SkillListProps) {
                                     className="bg-zinc-700 text-gray-200 text-sm px-3 py-2 rounded-full"
                                 >
                                     {skill}
-                                </span>
+                                </span> 
                             ))}
                         </div>
                     </article>
